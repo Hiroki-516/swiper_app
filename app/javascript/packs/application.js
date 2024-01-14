@@ -7,6 +7,12 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+import 'jquery'
+import "../script"  // 拡張子(.js)を省略し、相対パスを正確に指定
+import Swiper from 'swiper/swiper-bundle.js';  //この行を追記
+import 'swiper/swiper-bundle.css';　　　　　　　　　　　　　　　　　　　　　　　　　　//この行を追記
+
+
 
 Rails.start()
 Turbolinks.start()
